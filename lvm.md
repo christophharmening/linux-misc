@@ -39,3 +39,7 @@ lvdisplay
 
 Expand your logical volume to maximum
 `` lvextend -l +100FREE /dev/mapper/vg-system--lv-home ``
+
+## Expand your filesystem
+### ext4
+`` resife2fs ``
