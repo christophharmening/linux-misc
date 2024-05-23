@@ -92,7 +92,9 @@ DNS.1 = webservername
 ```
 
 Now you can create the CA signed certificate
+```
 openssl x509 -req -in csr/webserver.csr -CA myCA.pem -CAkey key/myCA.key -CAcreateserial -out crt/webserver.crt -days 730 -sha256 -extfile ext/webserver.ext
+```
 
 ## Create ssl config in apache2
 
