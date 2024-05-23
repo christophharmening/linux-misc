@@ -63,7 +63,7 @@ Now create the ca certificate
 openssl req -x509 -new -nodes -key key/myCA.key -sha256 -days 3650 -out myCA.pem
 ```
 
-## Creating CA signed certificate for your wbesite
+## Creating CA signed certificate for your website
 
 Create Keyfile
 ```
