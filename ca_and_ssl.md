@@ -27,7 +27,8 @@ organizationalUnitName          = Organizational Unit Name (eg, section)
 commonName                      = Common Name (e.g. server FQDN or YOUR name)
 commonName_max                  = 64
 
-emailAddress                    = myMail@mail.com
+emailAddress                    = Your Email Address
+emailAddress_default            = myMail@mail.com
 emailAddress_max                = 64
 ```
 
