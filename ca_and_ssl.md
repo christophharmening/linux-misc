@@ -143,4 +143,11 @@ nano /etc/apache2/site-avaiable/000-ssl.conf
 </VirtualHost>
 ```
 
+Reload apache
+```
+systemctl reload apache2
+```
+
+Now copy the myCA.pem file to your Client and add these Certificate to your Browser.
+
 
